@@ -10,6 +10,6 @@ buttonNo.addEventListener('click', () => {
     buttonNo.style.display = 'none'
     title.textContent = 'Ответ неверный!'
     setTimeout(() => {
-        title.textContent = 'Ты лютый?'
+        title.textContent = 'Я последний раз спрашиваю: Ты лютый?'
     }, 2000)
 })
